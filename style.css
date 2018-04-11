@@ -88,7 +88,7 @@ p {
 	cursor: pointer;
 }
 .menu{
-	background-color: #3faf54;
+	background-color: #202e7d;
 }
 .menutoggle{
 	display: none;
@@ -133,10 +133,12 @@ p {
 	float: left;
 }
 .sidbar-drop{
-
+	position: relative;
 }
 .drop{
 	display: none;
+	position: absolute;
+	background-color: #999;
 }
 .sidbar-drop:hover .drop{
 	display: block;
